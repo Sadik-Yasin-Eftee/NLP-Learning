@@ -13,6 +13,7 @@ preprocessing:
   languages:
   - de
   - en_us
+  - bn
   lowercase: true
   n_val: 5000
   phoneme_symbols:
@@ -72,8 +73,7 @@ preprocessing:
   - "\u032F"
   - "\u0361"
   - "\u03B8"
-  text_symbols: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\xE4\xF6\xFC\xC4\
-    \xD6\xDC\xDF"
+  text_symbols: "ঀ$ঁ$ং$ঃঅআইঈউঊঋঌএঐওঔকখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহ$়ঽ$া$ি$ী$ু$ূ$ৃ$ৄ$ে$ৈ$ো$ৌ$্ৎ$ৗড়ঢ়য়ৠৡ$ৢ$ৣ০১২৩৪৫৬৭৮৯"
 training:
   batch_size: 32
   batch_size_val: 32
